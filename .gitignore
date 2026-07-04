@@ -1,0 +1,39 @@
+# Root level gitignore for MERRKY LONDON project
+
+# Subfolders vendor/node_modules
+**/node_modules/
+**/vendor/
+
+# Environment files
+**/.env
+**/.env.*
+!**/.env.example
+
+# Local storage and caches
+**/storage/*.key
+**/storage/logs/*.log
+**/storage/framework/sessions/*
+**/storage/framework/views/*.php
+**/storage/framework/cache/data/*
+**/public/storage
+**/public/hot
+**/public/build
+**/.phpunit.result.cache
+**/.phpunit.cache
+
+# Distribution / build outputs
+**/dist/
+
+# OS/IDE configs
+.DS_Store
+Thumbs.db
+**/.idea/
+**/.vscode/
+**/.fleet/
+**/.nova/
+**/.zed/
+
+# Backup directories
+backend_old/
+*.backup
+*.bak
